@@ -1,4 +1,4 @@
-package optare.solid.sip5;
+package optare.solid.sip4;
 
 public class DVDProduct implements Product {
 
@@ -8,9 +8,5 @@ public class DVDProduct implements Product {
 
     public int getStock() {
         return 30;
-    }
-
-    public int getRecommendedAge() {
-        throw new UnsupportedOperationException();
     }
 }

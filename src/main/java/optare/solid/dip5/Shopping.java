@@ -1,4 +1,4 @@
-package optare.solid.dip4;
+package optare.solid.dip5;
 
 public class Shopping {
 }

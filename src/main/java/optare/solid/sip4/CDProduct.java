@@ -1,6 +1,6 @@
-package optare.solid.sip5;
+package optare.solid.sip4;
 
-public class CDProduct implements Product {
+public class CDProduct implements Product, AgeAware {
 
     public String getName() {
         return "CD";

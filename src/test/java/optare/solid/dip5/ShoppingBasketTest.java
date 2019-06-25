@@ -1,11 +1,11 @@
-package optare.solid.dip4;
+package optare.solid.dip5;
 
-import optare.solid.dip4.database.MongoPersistence;
-import optare.solid.dip4.database.Persistence;
-import optare.solid.dip4.database.SQLPersistence;
-import optare.solid.dip4.payment.CreditCardPaymentMethod;
-import optare.solid.dip4.payment.PaymentMethod;
-import optare.solid.dip4.payment.PaypalPaymentMethod;
+import optare.solid.dip5.database.MongoPersistence;
+import optare.solid.dip5.database.Persistence;
+import optare.solid.dip5.database.SQLPersistence;
+import optare.solid.dip5.payment.CreditCardPaymentMethod;
+import optare.solid.dip5.payment.PaymentMethod;
+import optare.solid.dip5.payment.PaypalPaymentMethod;
 import org.junit.Assert;
 import org.junit.Test;
 

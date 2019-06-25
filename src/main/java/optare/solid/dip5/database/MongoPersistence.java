@@ -1,6 +1,6 @@
-package optare.solid.dip4.database;
+package optare.solid.dip5.database;
 
-import optare.solid.dip4.Shopping;
+import optare.solid.dip5.Shopping;
 
 public class MongoPersistence implements Persistence {
     public Shopping save(Shopping shopping) {

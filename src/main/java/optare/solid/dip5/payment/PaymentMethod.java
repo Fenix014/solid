@@ -1,6 +1,6 @@
-package optare.solid.dip4.payment;
+package optare.solid.dip5.payment;
 
-import optare.solid.dip4.Shopping;
+import optare.solid.dip5.Shopping;
 
 public interface PaymentMethod {
     boolean pay(Shopping shopping);

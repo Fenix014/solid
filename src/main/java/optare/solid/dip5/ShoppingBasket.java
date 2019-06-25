@@ -1,7 +1,7 @@
-package optare.solid.dip4;
+package optare.solid.dip5;
 
-import optare.solid.dip4.database.Persistence;
-import optare.solid.dip4.payment.PaymentMethod;
+import optare.solid.dip5.database.Persistence;
+import optare.solid.dip5.payment.PaymentMethod;
 
 public class ShoppingBasket {
 
