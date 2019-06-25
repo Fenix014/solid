@@ -2,9 +2,9 @@ package optare.solid.dip4.payment;
 
 import optare.solid.dip4.Shopping;
 
-public class CreditCard {
+public class CreditCardPaymentMethod implements PaymentMethod {
     public boolean pay(Shopping shopping) {
-        // Performs payment using a credit card
+        //TODO payment with credit Card
         return true;
     }
 }

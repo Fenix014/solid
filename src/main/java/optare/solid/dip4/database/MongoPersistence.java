@@ -2,9 +2,9 @@ package optare.solid.dip4.database;
 
 import optare.solid.dip4.Shopping;
 
-public class SqlDatabase {
+public class MongoPersistence implements Persistence {
     public Shopping save(Shopping shopping) {
-        // Saves data in SQL database
+        //TODO Mongo persistence
         return shopping;
     }
 }
