@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class VehicleTest {
+public class VehicleSRPTest {
     @Test
     public void should_return_4_wheels_when_is_a_vehicle() {
         VehicleSRP vehicle = new VehicleSRP();
