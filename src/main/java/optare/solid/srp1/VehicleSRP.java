@@ -14,8 +14,4 @@ public class VehicleSRP {
     public String toString() {
         return "wheelCount=" + getWheelCount() + ", maxSpeed=" + getMaxSpeed();
     }
-
-    public String print() {
-       return this.toString();
-    }
 }
