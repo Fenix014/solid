@@ -16,4 +16,10 @@ public class VehicleTest {
         VehicleSRP vehicle = new VehicleSRP();
         assertEquals(200, vehicle.getMaxSpeed());
     }
+
+    @Test
+    public void should_print_vehicle_when_call_printer() {
+        VehicleSRP vehicle = new VehicleSRP();
+        assertEquals("wheelCount=4, maxSpeed=200", vehicle.print());
+    }
 }
