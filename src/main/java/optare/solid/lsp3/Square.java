@@ -1,14 +1,22 @@
 package optare.solid.lsp3;
 
-public class Square extends Rectangle {
- 
-    @Override public void setWidth(int width) {
-        super.setWidth(width);
-        super.setHeight(width);
+public class Square implements IRectangle {
+
+    private int width;
+
+    Square(int width) {
+        this.width = width;
     }
- 
-    @Override public void setHeight(int height) {
-        super.setHeight(height);
-        super.setWidth(height);
+
+    public int getWidth() {
+        return this.width;
+    }
+
+    public int getHeight() {
+        return this.getWidth();
+    }
+
+    public int calculateArea() {
+        return this.getHeight() * this.getWidth();
     }
 }
