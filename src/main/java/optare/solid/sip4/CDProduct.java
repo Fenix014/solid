@@ -1,4 +1,4 @@
-package optare.solid.sip5;
+package optare.solid.sip4;
 
 public class CDProduct implements Product {
 

@@ -1,4 +1,4 @@
-package optare.solid.dip4;
+package optare.solid.dip5;
 
 import org.junit.Assert;
 import org.junit.Test;

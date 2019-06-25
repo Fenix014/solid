@@ -1,4 +1,4 @@
-package optare.solid.sip5;
+package optare.solid.sip4;
 
 import org.junit.Test;
 
