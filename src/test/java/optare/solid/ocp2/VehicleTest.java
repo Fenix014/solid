@@ -8,15 +8,15 @@ public class VehicleTest {
 
     @Test
     public void should_draw_car_when_vehicle_is_a_car() {
-        Vehicle car= new Vehicle();
-        String drawCar = car.draw(VehicleType.CAR);
+        Vehicle car= new Car();
+        String drawCar = car.draw();
         assertEquals("Car", drawCar);
     }
 
     @Test
     public void should_draw_motorbike_when_vehicle_is_a_motorbike() {
-        Vehicle car= new Vehicle();
-        String drawMotorbike = car.draw(VehicleType.MOTORBIKE);
+        Vehicle motorbike= new Motorbike();
+        String drawMotorbike = motorbike.draw();
         assertEquals("Motorbike", drawMotorbike);
     }
 }
